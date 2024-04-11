@@ -15,7 +15,7 @@ img {
 
 body {
     margin: 0;
-    min-height: 100%;
+    min-height: 100dvh;
 }
 
 
@@ -23,12 +23,30 @@ body {
     background-image: url(../img/1.png);
     background-repeat: none;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
-body img {
+body > img {
     display: block;
     margin-inline: auto;
     width: 30rem;
     filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    bottom: 0;
+    width: 20rem;
+    margin-inline: auto;
+    margin-bottom: 15px;
+}
+
+.footer a {
+    width: 2.9rem;
+    height: 2.9rem;
+
 }
