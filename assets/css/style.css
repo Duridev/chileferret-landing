@@ -57,4 +57,15 @@ body > img {
     transition: ease;
     transition-duration: 300ms;
     margin-bottom: 5px;
+    
 }
+
+
+
+@media only screen and (max-width: 768px) {
+
+    body {
+      background-position: center;
+    }
+  
+  }
