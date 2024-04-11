@@ -53,6 +53,8 @@ body > img {
 
 
 .footer a img:hover {
-    transform: scale(1.1);
+    transform: scale(1.3);
+    transition: ease;
+    transition-duration: 300ms;
     margin-bottom: 5px;
 }
