@@ -1,0 +1,34 @@
+* {
+    min-width: 0;
+    font: inherit;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+}
+
+
+body {
+    background-image: url(../img/1.png);
+    background-repeat: none;
+    background-size: cover;
+}
+
+
+body img {
+    display: block;
+    margin-inline: auto;
+    width: 30rem;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+}
